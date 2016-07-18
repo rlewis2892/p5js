@@ -36,6 +36,12 @@
 		<title>p5.js</title>
 	</head>
 	<body>
-		hai
+		<div id="canvasWrap">
+
+		</div>
+
+		<div class="container-fluid" id="p5_loading">
+			This is the loading screen
+		</div>
 	</body>
 </html>
