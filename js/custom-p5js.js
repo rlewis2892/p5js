@@ -3,10 +3,11 @@ function preload() {
 }
 
 function setup() {
+
 	var myCanvas = createCanvas(windowWidth, windowHeight - 5, WEBGL);
 
 	/* use orthographic view */
-	ortho(-width, width, height, -height/2, 0.1, 100);
+	/*ortho(-width, width, height, -height/2, 0.1, 100);*/
 
 	/* insert canvas inside #canvasWrap */
 	myCanvas.parent('canvasWrap');
@@ -14,19 +15,17 @@ function setup() {
 
 function draw() {
 
-	/* 3D WebGL */
-	background(255);
-
+	/* 3D WebGL Torus */
+	background(0);
 	rotateX(frameCount * 0.01);
 	rotateY(frameCount * 0.01);
-	torus(200, 60);
+	torus(200, 125);
 
-
-	/* 2d circles */
-	/*if (mouseIsPressed) {
+	/*if(mouseIsPressed) {
 		fill(0);
 	} else {
 		fill(255);
 	}
 	ellipse(mouseX, mouseY, 80, 80);*/
+
 }

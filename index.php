@@ -37,8 +37,9 @@
 	</head>
 	<body>
 
-		<!-- canvas wrap -->
-		<div id="canvasWrap"></div>
+		<div class="">
+			<div id="canvasWrap"></div>
+		</div>
 
 		<!-- loading screen -->
 		<div class="container-fluid" id="p5_loading">
