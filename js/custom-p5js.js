@@ -3,7 +3,7 @@ function preload() {
 }
 
 function setup() {
-	var myCanvas = createCanvas(windowWidth, windowHeight);
+	var myCanvas = createCanvas(windowWidth, windowHeight - 5);
 
 	/* insert canvas inside #canvasWrap */
 	myCanvas.parent('canvasWrap');

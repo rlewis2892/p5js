@@ -36,12 +36,14 @@
 		<title>p5.js</title>
 	</head>
 	<body>
-		<div id="canvasWrap">
 
-		</div>
+		<!-- canvas wrap -->
+		<div id="canvasWrap"></div>
 
+		<!-- loading screen -->
 		<div class="container-fluid" id="p5_loading">
 			This is the loading screen
 		</div>
+
 	</body>
 </html>
